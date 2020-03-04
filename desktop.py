@@ -57,7 +57,7 @@ helpMenu.add_cascade(label="Redo", command=ddown)
 Tops = Frame(root, bg='Cadet Blue', pady=2, width=1050, height=100, relief=RIDGE)
 Tops.grid(row=0, column=0)
 
-lblTitle: Label = Label(Tops, font=('Arial', 30, 'bold'), text="Unlicensed Drivers Identification System", bd=21,
+lblTitle:Label = Label(Tops, font=('Arial', 30, 'bold'), text="Unlicensed Drivers Identification System", bd=21,
                         bg='Cadet Blue', fg='Cornsilk', justify=CENTER)
 lblTitle.grid(row=0, column=0)
 
@@ -85,13 +85,13 @@ plateDigit = StringVar()
 platenumber.set(111011111)
 plateDigit.set("A.D")
 
-Platenum: Label = Label(RightFrame1, font=('Arial', 20, 'bold'), text="Vehicle-plate-number:", padx=2,
+Platenum:Label = Label(RightFrame1, font=('Arial', 20, 'bold'), text="Vehicle-plate-number:", padx=2,
                         pady=2, bg='Cadet Blue')
 Platenum.grid(row=0, column=0, sticky=W)
 txt = Entry(RightFrame1, font=('arial', 16, 'bold'), bd=2, fg="black", textvariable=platenumber, width=8, justify=LEFT).grid(row=0, column=1)
 
 
-DriverId: Label = Label(RightFrame1, font=('Arial', 20, 'bold'), text="Driver-Id-number:", padx=2,
+DriverId:Label = Label(RightFrame1, font=('Arial', 20, 'bold'), text="Driver-Id-number:", padx=2,
                         pady=2, bg='Cadet Blue')
 DriverId.grid(row=1, column=0, sticky=W)
 
