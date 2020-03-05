@@ -5,10 +5,11 @@ from tkinter import *
 from tkinter import Label
 
 
-from faceRecognition import faceDetection, draw_rect, put_text, labels_for_training_data, train_classifier
+from faceRecognition import facedetection, draw_rect, put_text, labels_for_training_data, train_classifier
 
-test_img = cv2.imread('/home/darknet/PycharmProjects/Python/recognition/TestImages/ul.png')
-faces_detected, gray_img = faceDetection(test_img)
+test_img = cv2.imread('../TestImages/ul.png')
+faces_detected,gray_img = facedetection(test_img)
+#faces_detected, gray_img = facedetection(test_img)
 print("The detected face:", faces_detected)
 
 for (x, y, w, h) in faces_detected:
