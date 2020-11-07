@@ -1,3 +1,4 @@
+#real footege from a cellphone
 import requests
 import cv2
 import numpy as np
