@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-face_cascade = cv2.CascadeClassifier('/home/darknet/Desktop/UDIS/HaarCascade/haarcascade_frontalface_alt2.xml')
+face_cascade = cv2.CascadeClassifier(r"C:\Users\Yunus\Desktop\UDIS\HaarCascade\haarcascade_frontalface_alt2.xml")
 
 cap = cv2.VideoCapture(0)
 
@@ -17,8 +17,8 @@ while True:
         print(x, y, w, h)
         roi_gray = gray[y:y + h, x:x + w]
         roi_color = frame[y:y + h, x:x + w]
-        img_item = "/home/darknet/PycharmProjects/Python/recognition/Trainingimages/1/ul.png"
-        Caught_img = "/home/darknet/PycharmProjects/Python/recognition/TestImages/ul.png"
+        img_item = r"C:\Users\Yunus\Desktop\UDIS\recognition\TesstImages\ul.png"
+        Caught_img = r"C:\Users\Yunus\Desktop\UDIS\recognition\TestImages\ul.png"
         cv2.imwrite(Caught_img, roi_gray)
         cv2.imwrite(img_item, roi_gray)
         color = (55, 250, 55)
