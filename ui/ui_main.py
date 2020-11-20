@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-
-################################################################################
-## Form generated from reading UI file 'main.ui'
-##
-## Created by: Qt User Interface Compiler version 5.15.1
-##
-## WARNING! All changes made in this file will be lost when recompiling UI file!
-################################################################################
-
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
@@ -31,7 +21,7 @@ class Ui_MainWindow(object):
         self.mainframe.setFrameShadow(QFrame.Raised)
         self.pushButton = QPushButton(self.mainframe)
         self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(50, 540, 131, 31))
+        self.pushButton.setGeometry(QRect(150, 530, 91, 31))
         font = QFont()
         font.setFamily(u"Segoe UI Semibold")
         font.setPointSize(15)
@@ -43,7 +33,7 @@ class Ui_MainWindow(object):
 "shadow: rgb(220,230,221)")
         self.pushButton_2 = QPushButton(self.mainframe)
         self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setGeometry(QRect(250, 540, 131, 31))
+        self.pushButton_2.setGeometry(QRect(270, 530, 91, 31))
         font1 = QFont()
         font1.setFamily(u"Segoe UI Semibold")
         font1.setPointSize(15)
@@ -69,87 +59,52 @@ class Ui_MainWindow(object):
         self.caughtpic.setFrameShadow(QFrame.Raised)
         self.caughtlicense = QFrame(self.mainframe)
         self.caughtlicense.setObjectName(u"caughtlicense")
-        self.caughtlicense.setGeometry(QRect(600, 260, 171, 41))
+        self.caughtlicense.setGeometry(QRect(600, 320, 171, 41))
         self.caughtlicense.setStyleSheet(u"background-color: rgb(52, 59, 72);")
         self.caughtlicense.setFrameShape(QFrame.StyledPanel)
         self.caughtlicense.setFrameShadow(QFrame.Raised)
         self.titlebar = QFrame(self.mainframe)
         self.titlebar.setObjectName(u"titlebar")
-        self.titlebar.setGeometry(QRect(0, 0, 431, 31))
+        self.titlebar.setGeometry(QRect(0, 0, 621, 31))
         self.titlebar.setFrameShape(QFrame.StyledPanel)
         self.titlebar.setFrameShadow(QFrame.Raised)
         self.label = QLabel(self.titlebar)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(10, -5, 71, 31))
+        self.label.setGeometry(QRect(30, 0, 51, 31))
         font2 = QFont()
         font2.setFamily(u"A0 Addis Abeba Unicode")
-        font2.setPointSize(18)
+        font2.setPointSize(16)
         font2.setBold(True)
         font2.setWeight(75)
         self.label.setFont(font2)
-        self.btn_close = QPushButton(self.mainframe)
-        self.btn_close.setObjectName(u"btn_close")
-        self.btn_close.setGeometry(QRect(730, -10, 40, 42))
-        sizePolicy = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Expanding)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.btn_close.sizePolicy().hasHeightForWidth())
-        self.btn_close.setSizePolicy(sizePolicy)
-        self.btn_close.setMinimumSize(QSize(40, 0))
-        self.btn_close.setMaximumSize(QSize(40, 16777215))
-        self.btn_close.setStyleSheet(u"QPushButton {	\n"
-"	border: none;\n"
-"	background-color: transparent;\n"
-"}\n"
-"QPushButton:hover {\n"
-"	background-color: rgb(52, 59, 72);\n"
-"}\n"
-"QPushButton:pressed {	\n"
-"	background-color: rgb(85, 170, 255);\n"
-"}")
-        icon = QIcon()
-        icon.addFile(u":/16x16/icons/16x16/cil-x.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_close.setIcon(icon)
-        self.btn_maximize_restore = QPushButton(self.mainframe)
-        self.btn_maximize_restore.setObjectName(u"btn_maximize_restore")
-        self.btn_maximize_restore.setGeometry(QRect(690, -10, 40, 42))
-        sizePolicy.setHeightForWidth(self.btn_maximize_restore.sizePolicy().hasHeightForWidth())
-        self.btn_maximize_restore.setSizePolicy(sizePolicy)
-        self.btn_maximize_restore.setMinimumSize(QSize(40, 0))
-        self.btn_maximize_restore.setMaximumSize(QSize(40, 16777215))
-        self.btn_maximize_restore.setStyleSheet(u"QPushButton {	\n"
-"	border: none;\n"
-"	background-color: transparent;\n"
-"}\n"
-"QPushButton:hover {\n"
-"	background-color: rgb(52, 59, 72);\n"
-"}\n"
-"QPushButton:pressed {	\n"
-"	background-color: rgb(85, 170, 255);\n"
-"}")
-        icon1 = QIcon()
-        icon1.addFile(u":/16x16/icons/16x16/cil-window-maximize.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_maximize_restore.setIcon(icon1)
-        self.btn_minimize = QPushButton(self.mainframe)
-        self.btn_minimize.setObjectName(u"btn_minimize")
-        self.btn_minimize.setGeometry(QRect(650, -10, 40, 42))
-        sizePolicy.setHeightForWidth(self.btn_minimize.sizePolicy().hasHeightForWidth())
-        self.btn_minimize.setSizePolicy(sizePolicy)
-        self.btn_minimize.setMinimumSize(QSize(40, 0))
-        self.btn_minimize.setMaximumSize(QSize(40, 16777215))
-        self.btn_minimize.setStyleSheet(u"QPushButton {	\n"
-"	border: none;\n"
-"	background-color: transparent;\n"
-"}\n"
-"QPushButton:hover {\n"
-"	background-color: rgb(52, 59, 72);\n"
-"}\n"
-"QPushButton:pressed {	\n"
-"	background-color: rgb(85, 170, 255);\n"
-"}")
-        icon2 = QIcon()
-        icon2.addFile(u":/16x16/icons/16x16/cil-window-minimize.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_minimize.setIcon(icon2)
+        self.label_4 = QLabel(self.titlebar)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(80, 5, 351, 21))
+        font3 = QFont()
+        font3.setPointSize(14)
+        self.label_4.setFont(font3)
+        self.label_2 = QLabel(self.mainframe)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(620, 240, 141, 31))
+        font4 = QFont()
+        font4.setPointSize(14)
+        font4.setBold(True)
+        font4.setWeight(75)
+        self.label_2.setFont(font4)
+        self.label_3 = QLabel(self.mainframe)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(620, 380, 141, 31))
+        font5 = QFont()
+        font5.setPointSize(15)
+        font5.setBold(True)
+        font5.setWeight(75)
+        self.label_3.setFont(font5)
+        self.dateTimeEdit = QDateTimeEdit(self.mainframe)
+        self.dateTimeEdit.setObjectName(u"dateTimeEdit")
+        self.dateTimeEdit.setGeometry(QRect(590, 540, 194, 31))
+        font6 = QFont()
+        font6.setPointSize(10)
+        self.dateTimeEdit.setFont(font6)
 
         self.verticalLayout.addWidget(self.mainframe)
 
@@ -165,17 +120,9 @@ class Ui_MainWindow(object):
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"START", None))
         self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"STOP", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"UDIS", None))
-#if QT_CONFIG(tooltip)
-        self.btn_close.setToolTip(QCoreApplication.translate("MainWindow", u"Close", None))
-#endif // QT_CONFIG(tooltip)
-        self.btn_close.setText("")
-#if QT_CONFIG(tooltip)
-        self.btn_maximize_restore.setToolTip(QCoreApplication.translate("MainWindow", u"Maximize", None))
-#endif // QT_CONFIG(tooltip)
-        self.btn_maximize_restore.setText("")
-#if QT_CONFIG(tooltip)
-        self.btn_minimize.setToolTip(QCoreApplication.translate("MainWindow", u"Minimize", None))
-#endif // QT_CONFIG(tooltip)
-        self.btn_minimize.setText("")
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"(Unlicense Drivers Identification system)", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"Caught Driver", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"License Plate", None))
     # retranslateUi
+
 
