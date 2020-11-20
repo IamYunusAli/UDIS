@@ -7,14 +7,14 @@ from tkinter import Label
 
 from faceRecognition import faceDetection, draw_rect, put_text, labels_for_training_data, train_classifier
 
-test_img = cv2.imread('/home/darknet/PycharmProjects/Python/recognition/TestImages/ul.png')
+test_img = cv2.imread("TestImages/ul.png")
 faces_detected, gray_img = faceDetection(test_img)
 print("The detected face:", faces_detected)
 
 for (x, y, w, h) in faces_detected:
     cv2.rectangle(test_img, (x, y), (x + w, y + h), (255, 0, 0), thickness=1)
 
-faces, faceID = labels_for_training_data('/home/darknet/PycharmProjects/Python/recognition/Trainingimages')
+faces, faceID = labels_for_training_data("Trainingimages")
 face_recognizer = train_classifier(faces, faceID)
 name = {0: "Status:Licensed"
            "Country:Ethipian", 1: "Status:Unlicensed"
