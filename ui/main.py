@@ -7,6 +7,7 @@ from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont, QFo
 from PySide2.QtWidgets import *
 
 ## ==> SPLASH SCREEN
+from ui.ui_functions import *
 from ui.ui_splash_screen import *
 from ui import ui_splash_screen
 #from ui_splash_screen import Ui_SplashScreen
@@ -29,6 +30,7 @@ class MainWindow(QMainWindow):
         self.setWindowFlag(QtCore.Qt.FramelessWindowHint)
         self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
         # MAIN WINDOW LABEL
+
 
 
 
