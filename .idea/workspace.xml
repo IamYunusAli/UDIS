@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7306073f-9a18-450d-af5f-5e5aa6297cf4" name="Default Changelist" comment="bakc end changes">
-      <change afterPath="$PROJECT_DIR$/Plate_number_detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/driver_identification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui/ui_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/ui_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/ui_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/ui_splash_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/ui_splash_screen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.driver_identification">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Plate_number_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,28 +132,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ui_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/ui_functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ui_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,21 +154,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ui_splash_screen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/ui_splash_screen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.UDIS" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.ui_main" />
       <item itemvalue="Python.driver_identification" />
       <item itemvalue="Python.Plate_number_detection" />
-      <item itemvalue="Python.ui_functions" />
+      <item itemvalue="Python.ui_splash_screen" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.driver_identification" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.ui_splash_screen" />
+        <item itemvalue="Python.driver_identification" />
         <item itemvalue="Python.ui_main" />
         <item itemvalue="Python.Plate_number_detection" />
-        <item itemvalue="Python.ui_functions" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +228,8 @@
       <workItem from="1606551796885" duration="2226000" />
       <workItem from="1606600606241" duration="1208000" />
       <workItem from="1606725987006" duration="2662000" />
+      <workItem from="1607187496796" duration="7030000" />
+      <workItem from="1607234874013" duration="537000" />
     </task>
     <task id="LOCAL-00001" summary="little comment">
       <created>1604730373927</created>
@@ -316,22 +317,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1604986033189" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1606729550256">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1607202601071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606729550256" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1606729550256">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1607202601071" />
+    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1607202601071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1606729550256" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1606729550256">
+    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1607202601071" />
+    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1607202601071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1606729550256" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1606729550256">
+    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1607202601071" />
+    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1607202601071">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1606729550256" />
+    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1607202601071" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1605954335512">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -360,15 +361,16 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UDIS$Recognition.coverage" NAME="Recognition Coverage Results" MODIFIED="1605860239941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$ui_functions.coverage" NAME="ui_functions Coverage Results" MODIFIED="1605947840711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
-    <SUITE FILE_PATH="coverage/UDIS$Plate_number_detection.coverage" NAME="Plate_number_detection Coverage Results" MODIFIED="1606050523008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UDIS$main.coverage" NAME="main Coverage Results" MODIFIED="1606726694501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/UDIS$Unnamed.coverage" NAME="UDIS Coverage Results" MODIFIED="1604730132376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$Tk.coverage" NAME="Tk Coverage Results" MODIFIED="1605163670574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$ui_main.coverage" NAME="ui_main Coverage Results" MODIFIED="1606552763577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
-    <SUITE FILE_PATH="coverage/UDIS$faceRecognition.coverage" NAME="faceRecognition Coverage Results" MODIFIED="1605860219608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recognition" />
     <SUITE FILE_PATH="coverage/UDIS$driver_identification.coverage" NAME="driver_identification Coverage Results" MODIFIED="1606726800450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UDIS$androidfootage.coverage" NAME="androidfootage Coverage Results" MODIFIED="1604730301310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UDIS$desktop.coverage" NAME="desktop Coverage Results" MODIFIED="1605163676763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$Detect.coverage" NAME="Detect Coverage Results" MODIFIED="1605860621678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recognition" />
+    <SUITE FILE_PATH="coverage/UDIS$Plate_number_detection.coverage" NAME="Plate_number_detection Coverage Results" MODIFIED="1606050523008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UDIS$main.coverage" NAME="main Coverage Results" MODIFIED="1607235087119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
+    <SUITE FILE_PATH="coverage/UDIS$faceRecognition.coverage" NAME="faceRecognition Coverage Results" MODIFIED="1605860219608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recognition" />
+    <SUITE FILE_PATH="coverage/UDIS$androidfootage.coverage" NAME="androidfootage Coverage Results" MODIFIED="1604730301310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UDIS$ui_splash_screen.coverage" NAME="ui_splash_screen Coverage Results" MODIFIED="1607188496233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
+    <SUITE FILE_PATH="coverage/UDIS$desktop.coverage" NAME="desktop Coverage Results" MODIFIED="1605163676763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
