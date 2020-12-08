@@ -1,4 +1,6 @@
 import sys
+import glob
+import os
 
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
@@ -9,8 +11,12 @@ from PyQt5.QtWidgets import *
 
 class Ui_MainWindow(object):
     def showphotos(self):
-        self.Caught_dirver.setPixmap(QPixmap(u"../../UDIS/resource/Caught_Drivers/Caught_driver1.png"))
-        self.Caught_plate.setPixmap(QPixmap(u"../../UDIS/resource/Caught_plates/plate_no_0.jpg"))
+        listofdrivers=glob.glob("../../UDIS/resource/Caught_Drivers/*")
+        listofplates=glob.glob("../../UDIS/resource/Caught_plates/*")
+        latestdriver=max(listofdrivers,key=os.path.getctime)
+        latestplates=max(listofplates,key=os.path.getctime)
+        self.Caught_dirver.setPixmap(QPixmap(latestdriver))
+        self.Caught_plate.setPixmap(QPixmap(latestplates))
 
     def closeme(self):
         sys.exit()

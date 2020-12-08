@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7306073f-9a18-450d-af5f-5e5aa6297cf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resource/Caught_Drivers/0/Caught_driver1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Caught_Drivers/0/Drivers code 000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Caught_Drivers/1/Drivers code 000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Caught_Drivers/Caught_driver1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Initials/CaughtDriver.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Initials/CaughtDriver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Initials/CaughtPlate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 00.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/ui_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/ui_main.py" afterDir="false" />
     </list>
@@ -47,9 +40,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource/Caught_Drivers" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yunus\Desktop\UDIS\resource\Caught_Drivers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Yunus\Desktop\UDIS\resource\Initials" />
     </key>
@@ -255,7 +251,8 @@
       <workItem from="1607285175478" duration="5156000" />
       <workItem from="1607320845974" duration="10005000" />
       <workItem from="1607341824389" duration="1525000" />
-      <workItem from="1607363895975" duration="1921000" />
+      <workItem from="1607363895975" duration="6101000" />
+      <workItem from="1607401874884" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="little comment">
       <created>1604730373927</created>
@@ -320,7 +317,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607235443500</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="caught drivers">
+      <created>1607367431874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607367431875</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial pictures">
+      <created>1607367452022</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607367452022</updated>
+    </task>
+    <task id="LOCAL-00012" summary="main ui">
+      <created>1607367469741</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607367469741</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,12 +354,15 @@
     <MESSAGE value="UI changes" />
     <MESSAGE value="detection and recognition" />
     <MESSAGE value="UIchanges" />
-    <option name="LAST_COMMIT_MESSAGE" value="UIchanges" />
+    <MESSAGE value="caught drivers" />
+    <MESSAGE value="initial pictures" />
+    <MESSAGE value="main ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="main ui" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UDIS$Recognition.coverage" NAME="Recognition Coverage Results" MODIFIED="1605860239941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$driver_identification.coverage" NAME="driver_identification Coverage Results" MODIFIED="1607341949510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UDIS$main.coverage" NAME="main Coverage Results" MODIFIED="1607364350971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
+    <SUITE FILE_PATH="coverage/UDIS$main.coverage" NAME="main Coverage Results" MODIFIED="1607402600575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/UDIS$ui_functions.coverage" NAME="ui_functions Coverage Results" MODIFIED="1605947840711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/UDIS$desktop.coverage" NAME="desktop Coverage Results" MODIFIED="1605163676763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$ui_main.coverage" NAME="ui_main Coverage Results" MODIFIED="1607326722969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
