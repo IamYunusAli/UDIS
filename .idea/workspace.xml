@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7306073f-9a18-450d-af5f-5e5aa6297cf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 00.jpg" afterDir="false" />
+    <list default="true" id="7306073f-9a18-450d-af5f-5e5aa6297cf4" name="Default Changelist" comment="showing captured image finished">
+      <change afterPath="$PROJECT_DIR$/Driver_recognition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers_face_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trainned_drivers_face.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/driver_status_identification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Licensed/Licensed_Driver0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Licensed/Licensed_Driver1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labels.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/Caught_plates/plate_no_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/Recording/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/Recording/video0.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videoplayer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/0/Caught_driver1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/0/Drivers code 000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/1/Drivers code 000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/Caught_driver1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 00.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 000.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/ui_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/ui_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +57,41 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resource/Caught_Drivers" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Yunus\Desktop\UDIS\resource\Caught_Drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yunus\Desktop\UDIS\resource\Recording" />
+      <recent name="C:\Users\Yunus\Desktop\UDIS" />
       <recent name="C:\Users\Yunus\Desktop\UDIS\resource\Initials" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="Driver_recognition (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Driver_recognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Plate_number_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ui_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="videoplayer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,34 +188,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/ui_main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ui_splash_screen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/ui_splash_screen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videoplayer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,19 +204,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.UDIS" />
-      <item itemvalue="Python.Plate_number_detection" />
+      <item itemvalue="Python.Driver_recognition (1)" />
+      <item itemvalue="Python.videoplayer" />
       <item itemvalue="Python.driver_identification" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.ui_main" />
-      <item itemvalue="Python.ui_splash_screen" />
+      <item itemvalue="Python.Plate_number_detection" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.driver_identification" />
-        <item itemvalue="Python.ui_main" />
-        <item itemvalue="Python.ui_splash_screen" />
         <item itemvalue="Python.Plate_number_detection" />
+        <item itemvalue="Python.driver_identification" />
+        <item itemvalue="Python.Driver_recognition (1)" />
+        <item itemvalue="Python.videoplayer" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +271,9 @@
       <workItem from="1607320845974" duration="10005000" />
       <workItem from="1607341824389" duration="1525000" />
       <workItem from="1607363895975" duration="6101000" />
-      <workItem from="1607401874884" duration="1128000" />
+      <workItem from="1607401874884" duration="1760000" />
+      <workItem from="1607405038524" duration="4985000" />
+      <workItem from="1607418118030" duration="2455000" />
     </task>
     <task id="LOCAL-00001" summary="little comment">
       <created>1604730373927</created>
@@ -338,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607367469741</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="showing captured image finished">
+      <created>1607403057363</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607403057363</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,21 +385,38 @@
     <MESSAGE value="caught drivers" />
     <MESSAGE value="initial pictures" />
     <MESSAGE value="main ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="main ui" />
+    <MESSAGE value="showing captured image finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="showing captured image finished" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ui/ui_main.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UDIS$Recognition.coverage" NAME="Recognition Coverage Results" MODIFIED="1605860239941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UDIS$driver_identification.coverage" NAME="driver_identification Coverage Results" MODIFIED="1607341949510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UDIS$main.coverage" NAME="main Coverage Results" MODIFIED="1607402600575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
+    <SUITE FILE_PATH="coverage/UDIS$driver_identification.coverage" NAME="driver_identification Coverage Results" MODIFIED="1607418248161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UDIS$main.coverage" NAME="main Coverage Results" MODIFIED="1607420304489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/UDIS$ui_functions.coverage" NAME="ui_functions Coverage Results" MODIFIED="1605947840711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
+    <SUITE FILE_PATH="coverage/UDIS$videoplayer.coverage" NAME="videoplayer Coverage Results" MODIFIED="1607409659018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UDIS$driver_status_identification.coverage" NAME="driver_status_identification Coverage Results" MODIFIED="1607406766061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$desktop.coverage" NAME="desktop Coverage Results" MODIFIED="1605163676763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$ui_main.coverage" NAME="ui_main Coverage Results" MODIFIED="1607326722969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/UDIS$Tk.coverage" NAME="Tk Coverage Results" MODIFIED="1605163670574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UDIS$Plate_number_detection.coverage" NAME="Plate_number_detection Coverage Results" MODIFIED="1606050523008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UDIS$Plate_number_detection.coverage" NAME="Plate_number_detection Coverage Results" MODIFIED="1607420198805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UDIS$Drivers_face_trainer.coverage" NAME="Drivers_face_trainer Coverage Results" MODIFIED="1607406865549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UDIS$Driver_recognition__1_.coverage" NAME="Driver_recognition (1) Coverage Results" MODIFIED="1607409917065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$Unnamed.coverage" NAME="UDIS Coverage Results" MODIFIED="1604730132376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UDIS$Detect.coverage" NAME="Detect Coverage Results" MODIFIED="1605860621678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recognition" />
     <SUITE FILE_PATH="coverage/UDIS$faceRecognition.coverage" NAME="faceRecognition Coverage Results" MODIFIED="1605860219608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/recognition" />
     <SUITE FILE_PATH="coverage/UDIS$ui_splash_screen.coverage" NAME="ui_splash_screen Coverage Results" MODIFIED="1607188496233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/UDIS$androidfootage.coverage" NAME="androidfootage Coverage Results" MODIFIED="1604730301310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UDIS$Driver_recognition.coverage" NAME="Driver_recognition Coverage Results" MODIFIED="1607405353380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads/Telegram Desktop/Python/Python" />
   </component>
 </project>
