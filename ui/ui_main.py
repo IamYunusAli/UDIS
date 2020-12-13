@@ -5,6 +5,7 @@ import os
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
+from PySide2.QtMultimediaWidgets import *
 #import cv2
 #from PyQt5.uic.properties import QtGui
 
@@ -89,9 +90,9 @@ class Ui_MainWindow(object):
         self.caughtpic = QLabel(self.mainframe)
         self.caughtpic.setObjectName(u"caughtpic")
         self.caughtpic.setGeometry(QRect(600, 40, 171, 191))
-        pixmap = QPixmap(r"resource/Caught_Drivers/Caught_driver1.png")
+        #pixmap = QPixmap(r"resource/Caught_Drivers/Caught_driver1.png")
         #label.setPixmap(pixmap)
-        self.caughtpic.setPixmap(pixmap)
+       #self.caughtpic.setPixmap(pixmap)
         self.caughtpic.setStyleSheet(u"background-color: rgb(52, 59, 72);")
         self.caughtpic.setFrameShape(QLabel.StyledPanel)
         self.caughtpic.setFrameShadow(QLabel.Raised)
