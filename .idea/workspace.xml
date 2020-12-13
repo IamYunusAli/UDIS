@@ -374,7 +374,11 @@
     <MESSAGE value="initial pictures" />
     <MESSAGE value="main ui" />
     <MESSAGE value="showing captured image finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="showing captured image finished" />
+    <MESSAGE value="training images" />
+    <MESSAGE value="caught drivers and plates" />
+    <MESSAGE value="UI" />
+    <MESSAGE value="Licensing Drivers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Licensing Drivers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
