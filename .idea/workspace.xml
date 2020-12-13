@@ -6,21 +6,9 @@
       <change afterPath="$PROJECT_DIR$/Drivers_face_trainer.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Trainned_drivers_face.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/driver_status_identification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Licensed/Licensed_Driver0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Licensed/Licensed_Driver1.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/labels.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Caught_plates/plate_no_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Recording/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/Recording/video0.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/videoplayer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/0/Caught_driver1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/0/Drivers code 000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/1/Drivers code 000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/Caught_driver1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 00.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 000.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/Caught_Drivers/Drivers code 000.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/ui_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/ui_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
